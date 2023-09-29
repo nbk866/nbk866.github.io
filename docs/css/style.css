@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+@layer destyle {
+  /**
+   * Minified by jsDelivr using clean-css v4.2.3.
+   * Original file: /npm/destyle.css@1.0.15/destyle.css
+   *
+   * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+   */
+  /*! destyle.css v1.0.14 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+  *{box-sizing:border-box}::after,::before{box-sizing:inherit}html{line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}body{margin:0}main{display:block}address,blockquote,dl,figure,form,iframe,p,pre,table{margin:0}h1,h2,h3,h4,h5,h6{font-size:inherit;line-height:inherit;font-weight:inherit;margin:0}ol,ul{margin:0;padding:0;list-style:none}dt{font-weight:700}dd{margin-left:0}hr{box-sizing:content-box;height:0;overflow:visible;border:0;border-top:1px solid;margin:0;clear:both;color:inherit}pre{font-family:monospace,monospace;font-size:inherit}address{font-style:inherit}a{background-color:transparent;text-decoration:none;color:inherit}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:inherit}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none;vertical-align:bottom}embed,iframe,object{border:0;vertical-align:bottom}button,input,optgroup,select,textarea{-webkit-appearance:none;appearance:none;vertical-align:middle;color:inherit;font:inherit;border:0;background:0 0;padding:0;margin:0;outline:0;border-radius:0;text-align:inherit}[type=checkbox]{-webkit-appearance:checkbox;appearance:checkbox}[type=radio]{-webkit-appearance:radio;appearance:radio}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{cursor:pointer;-webkit-appearance:none;appearance:none}[type=button][disabled],[type=reset][disabled],[type=submit][disabled],button[disabled]{cursor:default}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}select::-ms-expand{display:none}option{padding:0}fieldset{margin:0;padding:0;border:0;min-width:0}legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}label[for]{cursor:pointer}details{display:block}summary{display:list-item}[contenteditable]{outline:0}table{border-collapse:collapse;border-spacing:0}caption{text-align:left}td,th{vertical-align:top;padding:0}th{text-align:left;font-weight:700}template{display:none}[hidden]{display:none}
+  /*# sourceMappingURL=/sm/b859206d4db2ac5a7669fce467531170d5a77162a8174e66e368ec28d87ecc84.map */
+}
+
+@layer base {
+  :root {
+    --linear: cubic-bezier(0.0, 0.0, 1.0, 1.0);--easeInSine: cubic-bezier(0.47, 0, 0.745, 0.715);--easeOutSine: cubic-bezier(0.39, 0.575, 0.565, 1);--easeInOutSine: cubic-bezier(0.445, 0.05, 0.55, 0.95);--easeInQuad: cubic-bezier(0.55, 0.085, 0.68, 0.53);--easeOutQuad: cubic-bezier(0.25, 0.46, 0.45, 0.94);--easeInOutQuad: cubic-bezier(0.455, 0.03, 0.515, 0.955);--easeInCubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);--easeOutCubic: cubic-bezier(0.215, 0.61, 0.355, 1);--easeInOutCubic: cubic-bezier(0.645, 0.045, 0.355, 1);--easeInQuart: cubic-bezier(0.895, 0.03, 0.685, 0.22);--easeOutQuart: cubic-bezier(0.165, 0.84, 0.44, 1);--easeInOutQuart: cubic-bezier(0.77, 0, 0.175, 1);--easeInQuint: cubic-bezier(0.755, 0.05, 0.855, 0.06);--easeOutQuint: cubic-bezier(0.23, 1, 0.32, 1);--easeInOutQuint: cubic-bezier(0.86, 0, 0.07, 1);--easeInExpo: cubic-bezier(0.95, 0.05, 0.795, 0.035);--easeOutExpo: cubic-bezier(0.19, 1, 0.22, 1);--easeInOutExpo: cubic-bezier(1, 0, 0, 1);--easeInCirc: cubic-bezier(0.6, 0.04, 0.98, 0.335);--easeOutCirc: cubic-bezier(0.075, 0.82, 0.165, 1);--easeInOutCirc: cubic-bezier(0.785, 0.135, 0.15, 0.86);--easeInBack: cubic-bezier(0.6, -0.28, 0.735, 0.045);--easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);--easeInOutBack: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --fz0px: 0;--fz1px: 0.0625rem;--fz2px: 0.125rem;--fz3px: 0.1875rem;--fz4px: 0.25rem;--fz5px: 0.3125rem;--fz6px: 0.375rem;--fz7px: 0.4375rem;--fz8px: 0.5rem;--fz9px: 0.5625rem;--fz10px: 0.625rem;--fz11px: 0.6875rem;--fz12px: 0.75rem;--fz13px: 0.8125rem;--fz14px: 0.875rem;--fz15px: 0.9375rem;--fz16px: 1rem;--fz17px: 1.0625rem;--fz18px: 1.125rem;--fz19px: 1.1875rem;--fz20px: 1.25rem;--fz21px: 1.3125rem;--fz22px: 1.375rem;--fz23px: 1.4375rem;--fz24px: 1.5rem;--fz25px: 1.5625rem;--fz26px: 1.625rem;--fz27px: 1.6875rem;--fz28px: 1.75rem;--fz29px: 1.8125rem;--fz30px: 1.875rem;--fz31px: 1.9375rem;--fz32px: 2rem;--fz33px: 2.0625rem;--fz34px: 2.125rem;--fz35px: 2.1875rem;--fz36px: 2.25rem;--fz37px: 2.3125rem;--fz38px: 2.375rem;--fz39px: 2.4375rem;--fz40px: 2.5rem;--fz41px: 2.5625rem;--fz42px: 2.625rem;--fz43px: 2.6875rem;--fz44px: 2.75rem;--fz45px: 2.8125rem;--fz46px: 2.875rem;--fz47px: 2.9375rem;--fz48px: 3rem;--fz49px: 3.0625rem;--fz50px: 3.125rem;--fz51px: 3.1875rem;--fz52px: 3.25rem;--fz53px: 3.3125rem;--fz54px: 3.375rem;--fz55px: 3.4375rem;--fz56px: 3.5rem;--fz57px: 3.5625rem;--fz58px: 3.625rem;--fz59px: 3.6875rem;--fz60px: 3.75rem;--fz61px: 3.8125rem;--fz62px: 3.875rem;--fz63px: 3.9375rem;--fz64px: 4rem;--fz65px: 4.0625rem;--fz66px: 4.125rem;--fz67px: 4.1875rem;--fz68px: 4.25rem;--fz69px: 4.3125rem;--fz70px: 4.375rem;--fz71px: 4.4375rem;--fz72px: 4.5rem;--fz73px: 4.5625rem;--fz74px: 4.625rem;--fz75px: 4.6875rem;--fz76px: 4.75rem;--fz77px: 4.8125rem;--fz78px: 4.875rem;--fz79px: 4.9375rem;--fz80px: 5rem;--fz81px: 5.0625rem;--fz82px: 5.125rem;--fz83px: 5.1875rem;--fz84px: 5.25rem;--fz85px: 5.3125rem;--fz86px: 5.375rem;--fz87px: 5.4375rem;--fz88px: 5.5rem;--fz89px: 5.5625rem;--fz90px: 5.625rem;--fz91px: 5.6875rem;--fz92px: 5.75rem;--fz93px: 5.8125rem;--fz94px: 5.875rem;--fz95px: 5.9375rem;
+    --fontMincho: 'Hiragino Mincho ProN W3', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+    --fontGothic: "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+    --fontOswald: 'Oswald', sans-serif;
+    --fontLato: 'Lato', sans-serif;
+  }
+  body {
+    background-color: #dfdfdf;
+    font-family: var(--fontGothic);
+    font-size: 16px;
+    color: #333;
+  }
+}
+
+@layer common {
+  .cm_header {
+    background-color: #fff;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    font-size: var(--fz24px);
+    font-weight: bold;
+  }
+  .cm_header_logo {
+  }
+}
+
+@layer block {
+
+}
+
+@layer element {
+
+}
+
+@layer helper {
+
+}
